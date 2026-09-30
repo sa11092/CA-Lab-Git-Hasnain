@@ -1,0 +1,11 @@
+0.7
+2020.1
+May 27 2020
+20:09:33
+C:/Users/sa11092/Desktop/lab5/lab5.sim/sim_1/behav/xsim/glbl.v,1790768639,verilog,,,,glbl,,,,,,,,
+C:/Users/sa11092/Desktop/lab5/lab5.srcs/sim_1/new/tb_top_fsm.v,1790770658,verilog,,,,tb_top_fsm,,,,,,,,
+C:/Users/sa11092/Desktop/lab5/lab5.srcs/sources_1/new/clock_divider.v,1790769274,verilog,,C:/Users/sa11092/Desktop/lab5/lab5.srcs/sources_1/new/debouncer.v,,clock_divider,,,,,,,,
+C:/Users/sa11092/Desktop/lab5/lab5.srcs/sources_1/new/debouncer.v,1790769275,verilog,,C:/Users/sa11092/Desktop/lab5/lab5.srcs/sources_1/new/leds.v,,debouncer,,,,,,,,
+C:/Users/sa11092/Desktop/lab5/lab5.srcs/sources_1/new/leds.v,1790769273,verilog,,C:/Users/sa11092/Desktop/lab5/lab5.srcs/sources_1/new/skeleton_top_fsm.v,,leds,,,,,,,,
+C:/Users/sa11092/Desktop/lab5/lab5.srcs/sources_1/new/skeleton_top_fsm.v,1790769272,verilog,,C:/Users/sa11092/Desktop/lab5/lab5.srcs/sources_1/new/switches.v,,skeleton_top_fsm,,,,,,,,
+C:/Users/sa11092/Desktop/lab5/lab5.srcs/sources_1/new/switches.v,1790769274,verilog,,C:/Users/sa11092/Desktop/lab5/lab5.srcs/sim_1/new/tb_top_fsm.v,,switches,,,,,,,,

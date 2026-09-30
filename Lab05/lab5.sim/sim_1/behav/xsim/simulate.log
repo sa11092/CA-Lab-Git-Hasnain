@@ -1,0 +1,47 @@
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+time=0 leds=x
+time=110000 leds=5
+time=120000 leds=5
+time=130000 leds=5
+time=140000 leds=5
+time=150000 leds=5
+time=160000 leds=5
+time=170000 leds=5
+time=180000 leds=5
+time=190000 leds=5
+time=200000 leds=5
+time=210000 leds=5
+time=220000 leds=5
+time=230000 leds=5
+time=240000 leds=5
+time=250000 leds=5
+time=260000 leds=5
+time=270000 leds=5
+time=280000 leds=5
+time=290000 leds=5
+time=300000 leds=5
+time=310000 leds=5
+time=320000 leds=5
+time=330000 leds=5
+time=340000 leds=5
+time=350000 leds=5
+time=360000 leds=5
+time=370000 leds=5
+time=380000 leds=5
+time=390000 leds=5
+time=400000 leds=5
+time=410000 leds=5
+time=420000 leds=5
+time=430000 leds=5
+time=440000 leds=5
+time=450000 leds=5
+time=460000 leds=5
+time=470000 leds=5
+time=480000 leds=5
+time=490000 leds=5
+time=500000 leds=5
+mid-count leds=5
+after reset leds=0 (expect 0)
+TEST DONE
+$finish called at time : 590 ns : File "C:/Users/sa11092/Desktop/lab5/lab5.srcs/sim_1/new/tb_top_fsm.v" Line 59
