@@ -1,0 +1,88 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Thu Oct  8 13:46:16 2026
+# Process ID: 70288
+# Current directory: C:/Users/sa11092/Desktop/CA_lab6
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent79856 C:\Users\sa11092\Desktop\CA_lab6\CA_lab6.xpr
+# Log file: C:/Users/sa11092/Desktop/CA_lab6/vivado.log
+# Journal file: C:/Users/sa11092/Desktop/CA_lab6\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/sa11092/Desktop/CA_lab6/CA_lab6.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.1/data/ip'.
+update_compile_order -fileset sources_1
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7a35tcpg236-1
+Top: fsm_top
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 1355.711 ; gain = 238.398
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'fsm_top' [C:/Users/sa11092/Desktop/CA_lab6/CA_lab6.srcs/sources_1/new/fsm_top.v:12]
+	Parameter S_WAIT bound to: 2'b00 
+	Parameter S_EXECUTE bound to: 2'b01 
+	Parameter S_DISPLAY bound to: 2'b10 
+INFO: [Synth 8-6157] synthesizing module 'debouncer' [C:/Users/sa11092/Desktop/CA_lab6/CA_lab6.srcs/sources_1/new/debouncer.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'debouncer' (1#1) [C:/Users/sa11092/Desktop/CA_lab6/CA_lab6.srcs/sources_1/new/debouncer.v:4]
+INFO: [Synth 8-6157] synthesizing module 'leds' [C:/Users/sa11092/Desktop/CA_lab6/CA_lab6.srcs/sources_1/new/leds.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'leds' (2#1) [C:/Users/sa11092/Desktop/CA_lab6/CA_lab6.srcs/sources_1/new/leds.v:3]
+INFO: [Synth 8-6157] synthesizing module 'switches' [C:/Users/sa11092/Desktop/CA_lab6/CA_lab6.srcs/sources_1/new/switches.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'switches' (3#1) [C:/Users/sa11092/Desktop/CA_lab6/CA_lab6.srcs/sources_1/new/switches.v:3]
+INFO: [Synth 8-6157] synthesizing module 'ALU' [C:/Users/sa11092/Desktop/CA_lab6/CA_lab6.srcs/sources_1/new/ALU.v:6]
+	Parameter ALU_AND bound to: 4'b0000 
+	Parameter ALU_OR bound to: 4'b0001 
+	Parameter ALU_ADD bound to: 4'b0010 
+	Parameter ALU_XOR bound to: 4'b0011 
+	Parameter ALU_SLL bound to: 4'b0100 
+	Parameter ALU_SRL bound to: 4'b0101 
+	Parameter ALU_SUB bound to: 4'b0110 
+INFO: [Synth 8-6157] synthesizing module 'xor_gate' [C:/Users/sa11092/Desktop/CA_lab6/CA_lab6.srcs/sources_1/new/xor_gate.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'xor_gate' (4#1) [C:/Users/sa11092/Desktop/CA_lab6/CA_lab6.srcs/sources_1/new/xor_gate.v:5]
+INFO: [Synth 8-6157] synthesizing module 'full_adder' [C:/Users/sa11092/Desktop/CA_lab6/CA_lab6.srcs/sources_1/new/full_adder.v:4]
+INFO: [Synth 8-6157] synthesizing module 'and_gate' [C:/Users/sa11092/Desktop/CA_lab6/CA_lab6.srcs/sources_1/new/and_gate.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'and_gate' (5#1) [C:/Users/sa11092/Desktop/CA_lab6/CA_lab6.srcs/sources_1/new/and_gate.v:4]
+INFO: [Synth 8-6157] synthesizing module 'or_gate' [C:/Users/sa11092/Desktop/CA_lab6/CA_lab6.srcs/sources_1/new/or_gate.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'or_gate' (6#1) [C:/Users/sa11092/Desktop/CA_lab6/CA_lab6.srcs/sources_1/new/or_gate.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'full_adder' (7#1) [C:/Users/sa11092/Desktop/CA_lab6/CA_lab6.srcs/sources_1/new/full_adder.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'ALU' (8#1) [C:/Users/sa11092/Desktop/CA_lab6/CA_lab6.srcs/sources_1/new/ALU.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'fsm_top' (9#1) [C:/Users/sa11092/Desktop/CA_lab6/CA_lab6.srcs/sources_1/new/fsm_top.v:12]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1408.449 ; gain = 291.137
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 1408.449 ; gain = 291.137
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 1408.449 ; gain = 291.137
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 1408.449 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/sa11092/Desktop/CA_lab6/CA_lab6.srcs/constrs_1/new/Basys3.xdc]
+Finished Parsing XDC File [C:/Users/sa11092/Desktop/CA_lab6/CA_lab6.srcs/constrs_1/new/Basys3.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1512.586 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:13 ; elapsed = 00:00:07 . Memory (MB): peak = 1559.219 ; gain = 441.906
+22 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:16 ; elapsed = 00:00:13 . Memory (MB): peak = 1559.219 ; gain = 531.328
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Oct  8 13:57:05 2026...

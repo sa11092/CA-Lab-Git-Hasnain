@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Thu Oct  8 13:31:45 2026
+# Process ID: 88056
+# Current directory: C:/Users/sa11092/Desktop/CA_lab6/CA_lab6.runs/synth_1
+# Command line: vivado.exe -log fsm_top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source fsm_top.tcl
+# Log file: C:/Users/sa11092/Desktop/CA_lab6/CA_lab6.runs/synth_1/fsm_top.vds
+# Journal file: C:/Users/sa11092/Desktop/CA_lab6/CA_lab6.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source fsm_top.tcl -notrace
