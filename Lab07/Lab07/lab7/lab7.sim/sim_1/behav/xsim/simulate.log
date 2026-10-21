@@ -1,0 +1,8 @@
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+TEST 1: 10 10; expected 10 10
+TEST 2: 0 0; expected 0 0
+TEST 3: 10 20; expected 10 20
+TEST 4: 30 20; expected 30 20
+TEST 5: 0 0; expected 0 0
+$finish called at time : 70 ns : File "C:/Users/sa11092/Desktop/Lab7_Task2/sim/RegisterFile_tb.v" Line 111
