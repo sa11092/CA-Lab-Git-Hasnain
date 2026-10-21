@@ -1,0 +1,202 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Wed Oct 21 15:51:09 2026
+# Process ID: 21288
+# Current directory: C:/Users/sa11092/Desktop/GitProjects/CA-Lab-Git-Hasnain/Lab08
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent18820 C:\Users\sa11092\Desktop\GitProjects\CA-Lab-Git-Hasnain\Lab08\Lab08.xpr
+# Log file: C:/Users/sa11092/Desktop/GitProjects/CA-Lab-Git-Hasnain/Lab08/vivado.log
+# Journal file: C:/Users/sa11092/Desktop/GitProjects/CA-Lab-Git-Hasnain/Lab08\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/sa11092/Desktop/GitProjects/CA-Lab-Git-Hasnain/Lab08/Lab08.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.1/data/ip'.
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 10
+[Wed Oct 21 15:54:08 2026] Launched synth_1...
+Run output will be captured here: C:/Users/sa11092/Desktop/GitProjects/CA-Lab-Git-Hasnain/Lab08/Lab08.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 10
+[Wed Oct 21 15:57:31 2026] Launched impl_1...
+Run output will be captured here: C:/Users/sa11092/Desktop/GitProjects/CA-Lab-Git-Hasnain/Lab08/Lab08.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 10
+[Wed Oct 21 16:29:32 2026] Launched synth_1...
+Run output will be captured here: C:/Users/sa11092/Desktop/GitProjects/CA-Lab-Git-Hasnain/Lab08/Lab08.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 10
+[Wed Oct 21 16:32:10 2026] Launched impl_1...
+Run output will be captured here: C:/Users/sa11092/Desktop/GitProjects/CA-Lab-Git-Hasnain/Lab08/Lab08.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 10
+[Wed Oct 21 16:41:04 2026] Launched synth_1...
+Run output will be captured here: C:/Users/sa11092/Desktop/GitProjects/CA-Lab-Git-Hasnain/Lab08/Lab08.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 10
+[Wed Oct 21 16:41:55 2026] Launched impl_1...
+Run output will be captured here: C:/Users/sa11092/Desktop/GitProjects/CA-Lab-Git-Hasnain/Lab08/Lab08.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 10
+[Wed Oct 21 16:42:37 2026] Launched impl_1...
+Run output will be captured here: C:/Users/sa11092/Desktop/GitProjects/CA-Lab-Git-Hasnain/Lab08/Lab08.runs/impl_1/runme.log
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2020.1
+  **** Build date : May 27 2020 at 20:24:38
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+****** Xilinx cs_server v2020.1.0
+  **** Build date : May 14 2020-06:10:29
+    ** Copyright 2017-2020 Xilinx, Inc. All Rights Reserved.
+
+
+
+connect_hw_server: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 1025.516 ; gain = 0.000
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183AF3064A
+set_property PROGRAM.FILE {C:/Users/sa11092/Desktop/GitProjects/CA-Lab-Git-Hasnain/Lab08/Lab08.runs/impl_1/basys3_top.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/sa11092/Desktop/GitProjects/CA-Lab-Git-Hasnain/Lab08/Lab08.runs/impl_1/basys3_top.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183AF3064A
+reset_run synth_1
+launch_runs synth_1 -jobs 10
+[Wed Oct 21 17:18:56 2026] Launched synth_1...
+Run output will be captured here: C:/Users/sa11092/Desktop/GitProjects/CA-Lab-Git-Hasnain/Lab08/Lab08.runs/synth_1/runme.log
+update_compile_order -fileset sources_1
+close_hw_manager
+launch_runs impl_1 -jobs 10
+[Wed Oct 21 17:19:56 2026] Launched impl_1...
+Run output will be captured here: C:/Users/sa11092/Desktop/GitProjects/CA-Lab-Git-Hasnain/Lab08/Lab08.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 10
+[Wed Oct 21 17:22:24 2026] Launched impl_1...
+Run output will be captured here: C:/Users/sa11092/Desktop/GitProjects/CA-Lab-Git-Hasnain/Lab08/Lab08.runs/impl_1/runme.log
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2020.1
+  **** Build date : May 27 2020 at 20:24:38
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+****** Xilinx cs_server v2020.1.0
+  **** Build date : May 14 2020-06:10:29
+    ** Copyright 2017-2020 Xilinx, Inc. All Rights Reserved.
+
+
+
+connect_hw_server: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 2219.664 ; gain = 0.000
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183AF3064A
+set_property PROGRAM.FILE {C:/Users/sa11092/Desktop/GitProjects/CA-Lab-Git-Hasnain/Lab08/Lab08.runs/impl_1/addressDecoderTop.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/sa11092/Desktop/GitProjects/CA-Lab-Git-Hasnain/Lab08/Lab08.runs/impl_1/addressDecoderTop.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183AF3064A
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183AF3064A
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183AF3064A
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183AF3064A
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/sa11092/Desktop/GitProjects/CA-Lab-Git-Hasnain/Lab08/Lab08.runs/impl_1/addressDecoderTop.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183AF3064A
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7a35tcpg236-1
+Top: addressDecoderTop
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 2733.336 ; gain = 252.023
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'addressDecoderTop' [C:/Users/sa11092/Desktop/GitProjects/CA-Lab-Git-Hasnain/Lab08/Lab08.srcs/sources_1/new/addressDecoderTop.v:24]
+INFO: [Synth 8-6157] synthesizing module 'addressdec' [C:/Users/sa11092/Desktop/GitProjects/CA-Lab-Git-Hasnain/Lab08/Lab08.srcs/sources_1/new/addressdec.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'addressdec' (1#1) [C:/Users/sa11092/Desktop/GitProjects/CA-Lab-Git-Hasnain/Lab08/Lab08.srcs/sources_1/new/addressdec.v:23]
+INFO: [Synth 8-6157] synthesizing module 'datamem' [C:/Users/sa11092/Desktop/GitProjects/CA-Lab-Git-Hasnain/Lab08/Lab08.srcs/sources_1/new/datamem.v:22]
+Reason is one or more of the following :
+	1: RAM is sensitive to asynchronous reset signal. this RTL style is not supported. 
+RAM "mem_reg" dissolved into registers
+INFO: [Synth 8-6155] done synthesizing module 'datamem' (2#1) [C:/Users/sa11092/Desktop/GitProjects/CA-Lab-Git-Hasnain/Lab08/Lab08.srcs/sources_1/new/datamem.v:22]
+INFO: [Synth 8-6157] synthesizing module 'leds' [C:/Users/sa11092/Desktop/leds.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'leds' (3#1) [C:/Users/sa11092/Desktop/leds.v:13]
+INFO: [Synth 8-6157] synthesizing module 'switches' [C:/Users/sa11092/Desktop/switches.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'switches' (4#1) [C:/Users/sa11092/Desktop/switches.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'addressDecoderTop' (5#1) [C:/Users/sa11092/Desktop/GitProjects/CA-Lab-Git-Hasnain/Lab08/Lab08.srcs/sources_1/new/addressDecoderTop.v:24]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 2822.145 ; gain = 340.832
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 2839.980 ; gain = 358.668
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 2839.980 ; gain = 358.668
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.107 . Memory (MB): peak = 2839.980 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/sa11092/Desktop/GitProjects/CA-Lab-Git-Hasnain/Lab08/Lab08.srcs/constrs_1/new/address_decoder.xdc]
+Finished Parsing XDC File [C:/Users/sa11092/Desktop/GitProjects/CA-Lab-Git-Hasnain/Lab08/Lab08.srcs/constrs_1/new/address_decoder.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 2973.969 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:13 ; elapsed = 00:00:08 . Memory (MB): peak = 3045.223 ; gain = 563.910
+14 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:17 ; elapsed = 00:00:15 . Memory (MB): peak = 3045.223 ; gain = 810.590
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Oct 21 18:41:25 2026...

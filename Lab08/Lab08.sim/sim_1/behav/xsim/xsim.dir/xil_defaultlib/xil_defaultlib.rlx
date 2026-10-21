@@ -1,0 +1,11 @@
+0.7
+2020.1
+May 27 2020
+20:09:33
+C:/Users/sa11092/Desktop/GitProjects/CA-Lab-Git-Hasnain/Lab08/Lab08.sim/sim_1/behav/xsim/glbl.v,1590624368,verilog,,,,glbl,,,,,,,,
+C:/Users/sa11092/Desktop/GitProjects/CA-Lab-Git-Hasnain/Lab08/Lab08.srcs/sim_1/new/addressDecoderTop_tb.v,1791982597,verilog,,,,addressDecoderTop_tb,,,,,,,,
+C:/Users/sa11092/Desktop/GitProjects/CA-Lab-Git-Hasnain/Lab08/Lab08.srcs/sources_1/new/addressDecoderTop.v,1791981591,verilog,,C:/Users/sa11092/Desktop/GitProjects/CA-Lab-Git-Hasnain/Lab08/Lab08.srcs/sources_1/new/addressdec.v,,addressDecoderTop,,,,,,,,
+C:/Users/sa11092/Desktop/GitProjects/CA-Lab-Git-Hasnain/Lab08/Lab08.srcs/sources_1/new/addressdec.v,1791981591,verilog,,C:/Users/sa11092/Desktop/GitProjects/CA-Lab-Git-Hasnain/Lab08/Lab08.srcs/sources_1/new/datamem.v,,addressdec,,,,,,,,
+C:/Users/sa11092/Desktop/GitProjects/CA-Lab-Git-Hasnain/Lab08/Lab08.srcs/sources_1/new/datamem.v,1791982597,verilog,,C:/Users/sa11092/Desktop/leds.v,,datamem,,,,,,,,
+C:/Users/sa11092/Desktop/leds.v,1791979628,verilog,,C:/Users/sa11092/Desktop/switches.v,,leds,,,,,,,,
+C:/Users/sa11092/Desktop/switches.v,1791979663,verilog,,C:/Users/sa11092/Desktop/GitProjects/CA-Lab-Git-Hasnain/Lab08/Lab08.srcs/sim_1/new/addressDecoderTop_tb.v,,switches,,,,,,,,
